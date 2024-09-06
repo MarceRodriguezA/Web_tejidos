@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Tejidos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="favicon.ico">
+  <link rel="stylesheet" type="text/scss" href="/css/stylesIndex.scss">
+ 
+<style>
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    color: white;
+  }
+  .navbar-inverse {
+    background-color: #3fb8af;
+    border-color: #3fb8af;
+    height: 80px;
+    padding-left: 50px;
+  }
+  .navbar-inverse .navbar-brand {
+    color: white;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    color: white;
+  }
+  .navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  padding-top: 20px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-inverse .navbar-collapse {
+  border-color: transparent;
+}
+  /*Imagen central slider*/
+  .jumbotron-fluid {
+    background-image:linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/assets/img/crochet-8202792_1280.jpg");
+    background-size: cover;
+    height: 500px;
+    --opacidad-negro: 0.6;
+  }
+
+#secc1{
+    width: 70%;
+}
+#texto1{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+    margin-bottom: 30px;
+  }
+  .carousel-control.left {
+  background-image: linear-gradient(to right,#ff9e9d,#ff9e9d 100%);
+  background-repeat: repeat-x;
+}
+.carousel-control.right{
+  background-image: linear-gradient(to right,#ff9e9d,#ff9e9d 100%);
+  background-repeat: repeat-x;
+}
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    height: auto;
+    padding-top: 7px;
+  }
+
+</style>
+
+</head>
+<body>
+<div class="row">   
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="./assets/img/logo.png" alt="oveja" width="50px"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar" style="padding-top: 15px;">
+                <ul class="nav navbar-nav">
+                    <li><a  href="index.html">INICIO</a></li>
+                    <li> <a href="historia.html">HISTORIA</a></li>
+                    <li><a href="puntos.html">PUNTOS</a></li>
+                    <li> <a href="contacto.html">CONTACTO</a></li>
+                </ul>
+                
+                </div>
+            </div>
+           
+        </nav>
+</div>
+<div class="jumbotron-fluid">
+  <div class="container text-center">     
+    <h1 style="color: white; padding-top: 100px;">HISTORIA DEL CROCHET</h1>
+  </div>
+</div>
+<br>
+<div class="container  text-left" style="padding-bottom: 30px;" > 
+    <h2 style="text-align: center; padding-bottom: 30px;">Historia de la lana</h2>   
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="/assets/img/needle-1481702_1280.jpg" class="img-responsive" alt="Image">
+    </div>
+    <div class="col-sm-8" style="padding-top: 10px;"> 
+      <p id="texto1">La historia de la lana es una travesía que se remonta a tiempos antiguos, reflejando su impacto significativo en la vida y la economía de diversas civilizaciones a lo largo de los siglos. La lana, una fibra natural obtenida de las ovejas, ha sido fundamental en la creación de tejidos y en la moda, jugando un papel crucial en la evolución de la vestimenta y la industria textil..</p>
+    </div>
+    <br>
+    <span style="text-align: left;"><button style="background-color: #ff3d7f; border-radius: 15px; padding: 3px; color: white; width: 100px; border: none; font-size: 14px;"><a style="color: white;" href="./historia.html" target="_blank">Ver más </a></button>
+    </span>
+  </div>
+</div>
+<br>
+<div class="container-fluid" style="background-color: #ff9e9d;">
+    <br>
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicadores -->
+      <ol class="carousel-indicators">
+        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#theCarousel" data-slide-to="1"></li>
+        <li data-target="#theCarousel" data-slide-to="2"></li>
+        <li data-target="#theCarousel" data-slide-to="3"></li>
+      </ol>
+  
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+            <img src="/assets/img/yarn-166877_1280.jpg" alt="Ilustracion" > 
+        </div>
+  
+        <div class="item">
+          <img src="/assets/img/crochet-8202792_1280.jpg" alt="fotografia"> 
+        </div>
+        <div class="item">
+            <img src="/assets/img/tissue-5276453_1280.jpg" alt="fotografia"> 
+        </div>
+          <div class="item">
+            <img src="/assets/img/crocheting-1479217_1920.jpg" alt="fotografia"> 
+          </div>
+  
+  
+      <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev" >
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">anterior</span>
+      </a>
+      <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">siguiente</span>
+      </a>
+    </div>
+</div>
+</div>
+<br>
+<div class="container  text-left" style="padding-bottom: 30px;">  
+    <h2 style="text-align: center;">Puntos de crochet</h2>  
+ <br>
+    <div class="row">
+      <div class="col-sm-7" style="padding-top: 10px;"> 
+        <p id="texto1">El crochet es una técnica de tejido que utiliza un gancho para entrelazar hilos y crear una variedad de patrones y texturas. Aunque sus orígenes son algo inciertos, el crochet se ha convertido en una forma popular y versátil de arte textil en todo el mundo. La técnica se basa en una serie de puntos básicos que forman la estructura fundamental de cualquier proyecto de crochet, desde simples mantas hasta elaborados encajes..</p>
+        <span style="text-align: left;"><button style="background-color: #ff3d7f; border-radius: 15px; padding: 3px; color: white; width: 100px; border: none; font-size: 14px;"><a style="color: white;" href="./historia.html" target="_blank">Ver más </a></button>
+        </span>
+    </div>
+      
+      <div class="col-sm-4">
+        <img src="/assets/img/tissue-5276453_1280.jpg"  alt="Image" style="width: 300px;">
+      </div>
+     
+    </div>
+</div>
+<br>
+<div class="container-fluid  text-center" style="padding-bottom: 40px; width:70%;">
+    <table style="width:100%;">
+        <tr>
+            <td style="padding-right: 10px;"> 
+                <h4>CADENETA</h4>
+                <iframe  width="100%" height="300px" src="https://www.youtube.com/embed/ptmjCQs9Ij0?si=AymwY36UKeb80aRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </td>
+            <td style="padding-right: 10px;">
+                <h4>PUNTO BAJO</h4>
+                <iframe  width="100%" height="300px" src="https://www.youtube.com/embed/KHxUbnyuavg?si=LytcjzNdzoEQmATe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+            </td>
+            <td style="padding-right: 10px;">
+                <h4>PUNTO ALTO</h4>
+                <iframe  width="100%" height="300px" src="https://www.youtube.com/embed/eJpJCsl8Wyw?si=1lbJUOzcgBLFnjV5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+            </td>
+            <td>
+                <h4>PUNTO MEDIO ALTO</h4>
+                <iframe  width="100%"  height="300px" src="https://www.youtube.com/embed/KHxUbnyuavg?si=LytcjzNdzoEQmATe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+<div class="container-fluid  text-center">    
+   
+    <div class="row">
+        
+      <div class="col-sm-12" style="padding: 30px; background-color: #fff388;"> 
+        <h3 >¿Quieres saber más?</h3>
+        <span style="text-align: left;"><button style="background-color: #ff3d7f; border-radius: 15px; padding: 3px; color: white; width: 100px; border: none; font-size: 14px;"><a style="color: white;" href="./historia.html" target="_blank">Contáctame</a></button>
+        </span>
+    </div>
+    </div>
+</div>
+
+<footer class="container-fluid text-center" style="background-color: #3fb8af;">
+  <p>Derechos reservados &copy; 2024</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Tejidos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="favicon.ico">
+  <link rel="stylesheet" type="text/scss" href="/css/stylesIndex.scss">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+<style>
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    color: white;
+  }
+  .navbar-inverse {
+    background-color: #3fb8af;
+    border-color: #3fb8af;
+    height: 80px;
+    padding-left: 50px;
+  }
+  .navbar-inverse .navbar-brand {
+    color: white;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    color: white;
+  }
+  .navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  padding-top: 20px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-inverse .navbar-collapse {
+  border-color: transparent;
+}
+  /*Imagen central slider*/
+  .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/assets/img/yarn-166877_1280.jpg");
+    background-size: cover;
+    height: 200px;
+    color: white;
+    --opacidad-negro: 0.6;
+  }
+
+
+#secc1{
+    width: 80%;
+}
+#texto1{
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    height: auto;
+    padding-top: 7px;
+  }
+
+
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-family: 'Arial', sans-serif;
+}
+label.required::after {
+  content: "*";
+  color: #ff3d7f;
+  margin-left: 5px;
+}
+label.inline {
+  display: inline-block;
+  margin-right: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #ff3d7f;
+  outline: none;
+}
+
+button{
+    background-color: #ff3d7f; 
+    border-radius: 15px; 
+    padding: 3px; 
+    color: white; 
+    width: 100px;
+    border: none;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #ff3d7f; 
+}
+
+
+body{
+    background-color: #fff388;
+    height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+}
+</style>
+
+</head>
+<body>
+<div class="row">   
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="./assets/img/logo.png" alt="oveja" width="50px"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" style="padding-top: 15px;">
+            <ul class="nav navbar-nav">
+                <li><a  href="index.html">INICIO</a></li>
+                <li> <a href="historia.html">HISTORIA</a></li>
+                <li><a href="puntos.html">PUNTOS</a></li>
+                <li> <a href="contacto.html">CONTACTO</a></li>
+            </ul>
+            
+            </div>
+        </div>
+       
+    </nav>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">     
+    <h1>Contacto</h1>
+  </div>
+</div>
+  
+<div class="container  text-left" style="height: auto; padding-bottom: 110px;">
+  <div class="row">
+    <div class="col-sm-7">
+        <h2>¡Hola y bienvenido/a!</h2>
+        <p style="font-size: 16px;">Si tienes alguna pregunta, sugerencia, o simplemente quieres conectarte, no dudes en ponerte en contacto. Estoy siempre abierto/a a nuevas ideas y me encantaría saber tu opinión.</p>
+        </p>
+        <table>
+            <tr>
+                <td><a href="tel:+56999284736" style="color: black; padding-right: 10px;">Teléfono: +56999284736</a></td>
+            </tr>
+            <tr>
+                <td><a href="mailto:rodriguezarriagadam@gmail.com" style="color: black;">Mail: rodriguezarriagadam@gmail.com</a></td>
+            </tr>
+        </table>
+
+        <img src="/assets/img/wool-ball-8815511_1280.png"  style="width:300px" alt="Image">
+    
+    </div>
+    <div class="col-sm-5" style="padding-top: 10px;"> 
+        <h2>¿Quieres saber más?</h2>
+
+        <form>
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre">
+            </div>
+            <div>
+              <label for="email" class="required">Correo Electrónico:</label>
+              <input type="email" id="email">
+            </div>
+            <div>
+              <label for="mensaje" class="inline">Mensaje:</label>
+              <textarea id="mensaje" rows="4" cols="50"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>    
+
+    </div>
+    <br>
+  </div>
+</div>
+
+<br>
+<br>
+
+<footer class="container-fluid text-center" style="background-color: #3fb8af;">
+  <p>Derechos reservados &copy; 2024</p>
+</footer>
+
+</body>
+</html>

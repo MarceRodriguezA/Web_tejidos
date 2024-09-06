@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Tejidos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="favicon.ico">
+  <link rel="stylesheet" type="text/scss" href="/css/stylesIndex.scss">
+ 
+<style>
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    color: white;
+  }
+  .navbar-inverse {
+    background-color: #3fb8af;
+    border-color: #3fb8af;
+    height: 80px;
+    padding-left: 50px;
+  }
+  .navbar-inverse .navbar-brand {
+    color: white;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    color: white;
+  }
+  .navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  padding-top: 20px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-inverse .navbar-collapse {
+  border-color: transparent;
+}
+  /*Imagen central slider*/
+  .jumbotron {
+    background-image:linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("/assets/img/yarn-166877_1280.jpg");
+    background-size: cover;
+    height: 200px;
+    color: white;
+    --opacidad-negro: 0.6;
+  }
+
+
+#secc1{
+    width: 60%;
+}
+#texto1{
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    height: auto;
+    padding-top: 7px;
+  }
+
+  .contenedor-galeria {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 70%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.contenedor-imagen {
+    position: relative;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #efefef;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgb(0, 0, 0, 0.5);
+    flex: 0.25;
+    height: 100%;
+}
+
+.contenedor-imagen img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenedor-imagen:hover {
+    flex: 2;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#galeryI{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    height: 400px;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+</style>
+
+</head>
+<body>
+
+<div class="row">   
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="./assets/img/logo.png" alt="oveja" width="50px"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar" style="padding-top: 15px;">
+                <ul class="nav navbar-nav">
+                    <li><a  href="index.html">INICIO</a></li>
+                    <li> <a href="historia.html">HISTORIA</a></li>
+                    <li><a href="puntos.html">PUNTOS</a></li>
+                    <li> <a href="contacto.html">CONTACTO</a></li>
+                </ul>
+                
+                </div>
+            </div>
+           
+        </nav>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">     
+    <h1>Historia de la lana</h1>
+  </div>
+</div>
+  
+<div class="container  text-left" >
+  <div class="row">
+    <div class="col-sm-5">
+      <img src="/assets/img/wool-ball-8815511_1280.png"  style="width:300px" alt="Image">
+    </div>
+    <div class="col-sm-7" style="padding-top: 10px;"> 
+      <p id="texto1">La historia de la lana es una travesía que se remonta a tiempos antiguos, reflejando su impacto significativo en la vida y la economía de diversas civilizaciones a lo largo de los siglos. La lana, una fibra natural obtenida de las ovejas, ha sido fundamental en la creación de tejidos y en la moda, jugando un papel crucial en la evolución de la vestimenta y la industria textil..</p>
+    <p id="texto1">Desde los primeros usos rudimentarios en las civilizaciones antiguas, la lana ha sido valorada por sus propiedades únicas, como su capacidad para proporcionar calor y su durabilidad. Las primeras evidencias de su uso se encuentran en las sociedades de Mesopotamia y Egipto, donde la lana era un recurso apreciado tanto para la vestimenta diaria como para la elaboración de textiles decorativos.</p>
+    </div>
+    <br>
+  </div>
+</div>
+
+<br>
+
+
+<div class="container  text-left">    
+    <div class="row">
+      <div class="col-sm-12" style="padding-top: 10px;"> 
+        <p id="texto1">El crochet es una técnica de tejido que utiliza un gancho para entrelazar hilos y crear una variedad de patrones y texturas. Aunque sus orígenes son algo inciertos, el crochet se ha convertido en una forma popular y versátil de arte textil en todo el mundo. La técnica se basa en una serie de puntos básicos que forman la estructura fundamental de cualquier proyecto de crochet, desde simples mantas hasta elaborados encajes..</p>
+        <p id="texto1">Durante la Edad Media, la lana se consolidó como un pilar económico en Europa, particularmente en Inglaterra, donde el comercio de lana tuvo un impacto profundo en la política y la economía. Con la Revolución Industrial, la producción de lana se transformó con avances tecnológicos que permitieron una fabricación más eficiente y en mayor escala.</p>
+        <p id="texto1">A lo largo del siglo XX y XXI, la lana continuó evolucionando, adaptándose a nuevas modas y prácticas sostenibles. Hoy en día, sigue siendo un material valioso y versátil, esencial tanto en la moda como en el hogar, y su historia refleja una rica tradición de innovación y adaptación a lo largo del tiempo.</p>
+    </div>
+     
+    </div>
+</div>
+<br>
+<br>
+<div class="container-fluid  text-center" id="galeryI">
+    <div class="contenedor-galeria">
+        <div class="galeria">
+            <div class="contenedor-imagen">
+                <figure>
+                    <img src="/assets/img/crochet-8202792_1280.jpg">
+                </figure>
+            </div>
+            <div class="contenedor-imagen">
+                <figure>
+                    <img src="/assets/img/crocheting-1479217_1920.jpg">
+                </figure>
+            </div>
+            <div class="contenedor-imagen">
+                <figure>
+                    <img src="/assets/img/knitting-2990965_1280.jpg">
+                </figure>
+            </div>
+            <div class="contenedor-imagen">
+                <figure>
+                    <img src="/assets/img/needle-1481702_1280.jpg">
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="container-fluid  text-center">    
+   
+    <div class="row">
+        
+      <div class="col-sm-12" style="padding: 30px; background-color: #fff388;"> 
+        <h3 >¿Quieres saber más?</h3>
+        <span style="text-align: left;"><button style="background-color: #ff3d7f; border-radius: 15px; padding: 3px; color: white; width: 100px; border: none; font-size: 14px;"><a style="color: white;" href="./historia.html" target="_blank">Contáctame</a></button>
+        </span>
+    </div>
+    </div>
+</div>
+
+<footer class="container-fluid text-center" style="background-color: #3fb8af;">
+  <p>Derechos reservados &copy; 2024</p>
+</footer>
+
+</body>
+</html>
